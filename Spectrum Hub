@@ -171,3 +171,23 @@ end)
 Tab2Section:NewButton("V HUB", "eeeeee", function()
      loadstring(game:HttpGet(('https://raw.githubusercontent.com/itsyaboivincentt5315/script/main/VHub.txt'),true))()
 end)
+
+--Tab1
+Tab1Section:NewButton("nukermode blox fruit", "new script", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Allvideo/test/main/Whitelist.txt"))() 
+end)
+
+--Tab1
+Tab1Section:NewButton("Fe Hoverboard psx", "credit to owner", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/PAghaVCC))();
+end)
+
+--Tab1
+Tab1Section:NewButton("Grand pirates", "cred to uzu", function()
+    loadstring(game:HttpGet("https://rawscripts.net/raw/loader_1038"))()
+end)
+
+--Tab1
+Tab1Section:NewButton("anime fighters sim", "creds to Hyper", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/DookDekDEE/AFS/main/script.lua"))()
+end)
