@@ -1,0 +1,173 @@
+local Library = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+local Window = Library.CreateLib("Spectrum Hub", "Ocean")
+
+-- Tabs
+
+local Tab1 = Window:NewTab("MAIN")
+local Tab1Section = Tab1:NewSection("scripts")
+
+local Tab2 = Window:NewTab("others")
+local Tab2Section = Tab2:NewSection("HUBS")
+
+local Tab3 = Window:NewTab("hacks Hub")
+local Tab3Section =Tab3:NewSection("op")
+
+--Tab1
+Tab1Section:NewButton("softbed", "bedwars", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/ELCkygpv", true))()
+end)
+
+--Tab1
+Tab1Section:NewButton("da hood", "nukermode", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Allvideo/test/main/Whitelist.txt"))()
+end)
+
+--Tab1
+Tab1Section:NewButton("Blox fruit", "hoho hub", function()
+     loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+end)
+
+--Tab1
+Tab1Section:NewButton("King legacy", "from hoho hub", function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+end)
+
+--Tab1
+Tab1Section:NewButton("Arsenal", "op gui", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/arsenal-hub/main/Arsenal%20GamingScripter", true))()
+end)
+
+--Tab1
+Tab1Section:NewButton("Keyboard", "keyboard gui", function()
+     loadstring(game:HttpGet("https://pastebin.com/raw/kC3dAMvt"))()
+end)
+
+--Tab2
+Tab2Section:NewButton("animation", "works all games", function()
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Animation-Hub/main/Animation%20Gui", true))()
+end)
+
+--Tab3
+Tab3Section:NewButton("Inf jump", "eeeee", function()
+    local InfiniteJumpEnabled = true
+game:GetService("UserInputService").JumpRequest:connect(function()
+	if InfiniteJumpEnabled then
+		game:GetService"Players".LocalPlayer.Character:FindFirstChildOfClass'Humanoid':ChangeState("Jumping")
+	end
+end)
+end)
+
+--Tab3
+Tab3Section:NewToggle("Fov", "Changes Fov", function(state)
+    if state then
+        game.Workspace.CurrentCamera.FieldOfView = 120
+    else
+        game.Workspace.CurrentCamera.FieldOfView = 80
+    end
+end)
+
+--Tab3
+Tab3Section:NewToggle("walkspeed", "sussyspeed", function(state)
+    if state then
+        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 50
+    else
+        game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 20
+    end
+end)
+
+--Tab2
+Tab2Section:NewButton("FE upsidedown", "XDDD", function()
+    local lp = game:GetService("Players").LocalPlayer
+local c = lp.Character
+local hrp0 = c:FindFirstChild("HumanoidRootPart")
+local hrp1 = hrp0:Clone()
+c.Parent = nil
+hrp0.Parent = hrp1
+hrp0.RootJoint.Part0 = nil
+hrp1.Parent = c
+c.Parent = workspace
+local h = game:GetService("RunService").Heartbeat
+hrp0.Transparency = 0.5
+while h:Wait() and c and c.Parent do
+    hrp0.CFrame = hrp1.CFrame
+    hrp0.Orientation += Vector3.new(0, 0, 180)
+    hrp0.Position -= Vector3.new(0, 1, 0)
+    hrp0.Velocity = hrp1.Velocity
+end
+end)
+
+--Tab2
+Tab2Section:NewButton("Extream Hub", "OP HUB", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ExtremeAntonis/KeySystemUI/main/KeySystemUI-Obfuscated.lua"))()
+end)
+
+--Tab1
+Tab1Section:NewButton("pet Simulator x", "Thunder Z", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/ThunderZ-HUB/HUB/main/Script"))()
+end)
+
+--Tab1
+Tab1Section:NewButton("TOH ADMIN", "so fucking op", function()
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/TwomadJR/nto/main/admiin"))()
+end)
+
+--Tab2
+Tab2Section:NewButton("Ban hammer", "it can fling people", function()
+    loadstring(game:HttpGet("https://pastebin.com/raw/xvmYy7rJ"))();
+end)
+
+--Tab2
+Tab2Section:NewButton("antifling", "troll", function()
+     loadstring(game:HttpGet('https://pastebin.com/raw/hKfDWcJw'))();
+end)
+
+--Tab1
+Tab1Section:NewButton("Shindo life", "ðŸ˜³ðŸ˜³ðŸ˜³", function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/L1ZOT/Project-PJM/main/shinido"))()
+end)
+
+--Tab2
+Tab2Section:NewButton("Pet simulator", "From saza Hub", function()
+     _G.Color = Color3.fromRGB(255, 255, 255)
+loadstring(game:HttpGet"https://rawscripts.net/raw/SAZA-HUB_496")()
+end)
+
+--Tab2
+Tab2Section:NewButton("Fe pickaxe", ";-;", function()
+     loadstring(game:HttpGet("https://pastebin.com/raw/yaPwhuJn"))();
+end)
+
+--Tab2
+Tab2Section:NewButton("chatbot", "SUPER OP", function()
+     loadstring(game:HttpGet("https://pastebin.com/raw/Sgb5szc9"))();
+end)
+
+--Tab2
+Tab2Section:NewButton("thunder hub", "blox fruit", function()
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/ThunderZ-HUB/HUB/main/Script"))()
+end)
+
+--Tab2
+Tab2Section:NewButton("toh", "tower of hell", function()
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/scripts/main/TOH", true))()
+end)
+
+--Tab2
+Tab2Section:NewButton("LX HUB", "pro hub", function()
+     loadstring(game:HttpGet(('https://raw.githubusercontent.com/Gogogamer61/LXHub-Main/main/LXHub%20Main%20Script'),true))()
+end)
+
+--Tab1
+Tab1Section:NewButton("shindo life V2", "so opppp", function()
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/PremierHub/Data/main/code.lua"))()
+end)
+
+--Tab1
+Tab1Section:NewButton("da hood", "for pc and mobile", function()
+     loadstring(game:HttpGet("https://raw.githubusercontent.com/NighterEpic/Faded/main/YesEpic", true))()
+end)
+
+--Tab2
+Tab2Section:NewButton("V HUB", "eeeeee", function()
+     loadstring(game:HttpGet(('https://raw.githubusercontent.com/itsyaboivincentt5315/script/main/VHub.txt'),true))()
+end)
