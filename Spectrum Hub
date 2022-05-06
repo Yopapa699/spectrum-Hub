@@ -14,37 +14,37 @@ local Tab3Section =Tab3:NewSection("op")
 
 --Tab1
 Tab1Section:NewButton("softbed", "bedwars", function()
-    loadstring(game:HttpGet("https://pastebin.com/raw/ELCkygpv", true))()
+  loadstring(game:HttpGet("https://pastebin.com/raw/ELCkygpv", true))()
 end)
 
 --Tab1
 Tab1Section:NewButton("da hood", "nukermode", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Allvideo/test/main/Whitelist.txt"))()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/Allvideo/test/main/Whitelist.txt"))()
 end)
 
 --Tab1
 Tab1Section:NewButton("Blox fruit", "hoho hub", function()
-     loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+  loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
 end)
 
 --Tab1
 Tab1Section:NewButton("King legacy", "from hoho hub", function()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+  loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
 end)
 
 --Tab1
 Tab1Section:NewButton("Arsenal", "op gui", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/arsenal-hub/main/Arsenal%20GamingScripter", true))()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/arsenal-hub/main/Arsenal%20GamingScripter", true))()
 end)
 
 --Tab1
 Tab1Section:NewButton("Keyboard", "keyboard gui", function()
-     loadstring(game:HttpGet("https://pastebin.com/raw/kC3dAMvt"))()
+  loadstring(game:HttpGet("https://pastebin.com/raw/kC3dAMvt"))()
 end)
 
 --Tab2
 Tab2Section:NewButton("animation", "works all games", function()
-     loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Animation-Hub/main/Animation%20Gui", true))()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/Animation-Hub/main/Animation%20Gui", true))()
 end)
 
 --Tab3
@@ -98,96 +98,96 @@ end)
 
 --Tab2
 Tab2Section:NewButton("Extream Hub", "OP HUB", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/ExtremeAntonis/KeySystemUI/main/KeySystemUI-Obfuscated.lua"))()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/ExtremeAntonis/KeySystemUI/main/KeySystemUI-Obfuscated.lua"))()
 end)
 
 --Tab1
 Tab1Section:NewButton("pet Simulator x", "Thunder Z", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/ThunderZ-HUB/HUB/main/Script"))()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/ThunderZ-HUB/HUB/main/Script"))()
 end)
 
 --Tab1
 Tab1Section:NewButton("TOH ADMIN", "so fucking op", function()
-     loadstring(game:HttpGet("https://raw.githubusercontent.com/TwomadJR/nto/main/admiin"))()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/TwomadJR/nto/main/admiin"))()
 end)
 
 --Tab2
 Tab2Section:NewButton("Ban hammer", "it can fling people", function()
-    loadstring(game:HttpGet("https://pastebin.com/raw/xvmYy7rJ"))();
+  loadstring(game:HttpGet("https://pastebin.com/raw/xvmYy7rJ"))();
 end)
 
 --Tab2
 Tab2Section:NewButton("antifling", "troll", function()
-     loadstring(game:HttpGet('https://pastebin.com/raw/hKfDWcJw'))();
+  loadstring(game:HttpGet('https://pastebin.com/raw/hKfDWcJw'))();
 end)
 
 --Tab1
 Tab1Section:NewButton("Shindo life", "ðŸ˜³ðŸ˜³ðŸ˜³", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/L1ZOT/Project-PJM/main/shinido"))()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/L1ZOT/Project-PJM/main/shinido"))()
 end)
 
 --Tab2
 Tab2Section:NewButton("Pet simulator", "From saza Hub", function()
-     _G.Color = Color3.fromRGB(255, 255, 255)
+  _G.Color = Color3.fromRGB(255, 255, 255)
 loadstring(game:HttpGet"https://rawscripts.net/raw/SAZA-HUB_496")()
 end)
 
 --Tab2
 Tab2Section:NewButton("Fe pickaxe", ";-;", function()
-     loadstring(game:HttpGet("https://pastebin.com/raw/yaPwhuJn"))();
+  loadstring(game:HttpGet("https://pastebin.com/raw/yaPwhuJn"))();
 end)
 
 --Tab2
 Tab2Section:NewButton("chatbot", "SUPER OP", function()
-     loadstring(game:HttpGet("https://pastebin.com/raw/Sgb5szc9"))();
+  loadstring(game:HttpGet("https://pastebin.com/raw/Sgb5szc9"))();
 end)
 
 --Tab2
 Tab2Section:NewButton("thunder hub", "blox fruit", function()
-     loadstring(game:HttpGet("https://raw.githubusercontent.com/ThunderZ-HUB/HUB/main/Script"))()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/ThunderZ-HUB/HUB/main/Script"))()
 end)
 
 --Tab2
 Tab2Section:NewButton("toh", "tower of hell", function()
-     loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/scripts/main/TOH", true))()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/GamingScripter/scripts/main/TOH", true))()
 end)
 
 --Tab2
 Tab2Section:NewButton("LX HUB", "pro hub", function()
-     loadstring(game:HttpGet(('https://raw.githubusercontent.com/Gogogamer61/LXHub-Main/main/LXHub%20Main%20Script'),true))()
+  loadstring(game:HttpGet(('https://raw.githubusercontent.com/Gogogamer61/LXHub-Main/main/LXHub%20Main%20Script'),true))()
 end)
 
 --Tab1
 Tab1Section:NewButton("shindo life V2", "so opppp", function()
-     loadstring(game:HttpGet("https://raw.githubusercontent.com/PremierHub/Data/main/code.lua"))()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/PremierHub/Data/main/code.lua"))()
 end)
 
 --Tab1
 Tab1Section:NewButton("da hood", "for pc and mobile", function()
-     loadstring(game:HttpGet("https://raw.githubusercontent.com/NighterEpic/Faded/main/YesEpic", true))()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/NighterEpic/Faded/main/YesEpic", true))()
 end)
 
 --Tab2
 Tab2Section:NewButton("V HUB", "eeeeee", function()
-     loadstring(game:HttpGet(('https://raw.githubusercontent.com/itsyaboivincentt5315/script/main/VHub.txt'),true))()
+  loadstring(game:HttpGet(('https://raw.githubusercontent.com/itsyaboivincentt5315/script/main/VHub.txt'),true))()
 end)
 
 --Tab1
 Tab1Section:NewButton("nukermode blox fruit", "new script", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/Allvideo/test/main/Whitelist.txt"))() 
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/Allvideo/test/main/Whitelist.txt"))() 
 end)
 
 --Tab1
 Tab1Section:NewButton("Fe Hoverboard psx", "credit to owner", function()
-    loadstring(game:HttpGet("https://pastebin.com/raw/PAghaVCC))();
+  loadstring(game:HttpGet("https://pastebin.com/raw/PAghaVCC"))();
 end)
 
 --Tab1
 Tab1Section:NewButton("Grand pirates", "cred to uzu", function()
-    loadstring(game:HttpGet("https://rawscripts.net/raw/loader_1038"))()
+  loadstring(game:HttpGet("https://rawscripts.net/raw/loader_1038"))()
 end)
 
 --Tab1
 Tab1Section:NewButton("anime fighters sim", "creds to Hyper", function()
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/DookDekDEE/AFS/main/script.lua"))()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/DookDekDEE/AFS/main/script.lua"))()
 end)
