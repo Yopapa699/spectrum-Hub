@@ -191,3 +191,8 @@ end)
 Tab1Section:NewButton("anime fighters sim", "creds to Hyper", function()
   loadstring(game:HttpGet("https://raw.githubusercontent.com/DookDekDEE/AFS/main/script.lua"))()
 end)
+
+--Tab2
+Tab2Section:NewButton("Fe sea walker", "credits to owner", function()
+   loadstring(game:HttpGet("https://pastebin.com/raw/eg4JTDkB"))();
+end)
