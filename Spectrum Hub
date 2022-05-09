@@ -206,3 +206,13 @@ end)
 Tab1Section:NewButton("Sonic Speed sim", "a cool gui", function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/Luciquad/credit/main/sonicspeedsimulator.lua"))()
 end)
+
+--Tab1
+Tab1Section:NewButton("nukermode crash", "the most cheapest crash on the entire planet", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Allvideo/nukermode/main/Crashbeta-obfuscated.lua"))() 
+end)
+
+--Tab1
+Tab1Section:NewButton("faded", "for da hood", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/NighterEpic/Faded/main/YesEpic", true))()
+end)
