@@ -233,7 +233,7 @@ Tab1Section:NewButton("inf spin AFS", "bro inf spin lol", function()
 end)
 
 --Tab1
-Tab1Section:NewButton("big brain simulator," "credits to owner", function()
+Tab1Section:NewButton("big brain simulator", "credits to the owner", function()
    loadstring(game:HttpGet('https://pastebin.com/raw/cCXKGAuv'))()
 end)
 
