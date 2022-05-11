@@ -231,3 +231,13 @@ end)
 Tab1Section:NewButton("inf spin AFS", "bro inf spin lol", function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/Levi4Chan/Rblx-Scripts/main/AFS-Inf-Wheel-Spin.lua", true))()
 end)
+
+--Tab1
+Tab1Section:NewButton("big brain simulator," "credits to owner", function()
+   loadstring(game:HttpGet('https://pastebin.com/raw/cCXKGAuv'))()
+end)
+
+--Tab1
+Tab1Section:NewButton("survive the killer", "credits to chairware", function()
+   local games = { ["SurviveTheKiller"] = 4580204640 } for i,v in pairs(games) do if game.PlaceId == v then print("Supported!"); loadstring(game:HttpGet("https://raw.githubusercontent.com/MiloHaxx/ChairWare/main/Games/" .. i .. ".lua"))() end end loadstring(game:HttpGet("https://raw.githubusercontent.com/MiloHaxx/ChairWare/main/dcJoin.lua"))()
+end)
