@@ -13,7 +13,7 @@ local Tab3 = Window:NewTab("hacks Hub")
 local Tab3Section =Tab3:NewSection("op")
 
 --Tab1
-Tab1Section:NewButton("softbed", "bedwars", function()
+Tab1Section:NewButton("bedwars", "softbed from YZHacker", function()
   loadstring(game:HttpGet("https://pastebin.com/raw/ELCkygpv", true))()
 end)
 
@@ -499,4 +499,9 @@ end)
 --Tab2
 Tab2Section:NewButton("admin command prison life", "op for trolling lol", function()
    loadstring(game:HttpGet("https://pastebin.com/raw/1RvgFtcx"))()
+end)
+
+--Tab1
+Tab1Section:NewButton("vape V4", "creds to xylex", function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Error-virus/holy-arceus-x-working-vape-v4/main/vape%20v4%20fixed%20version.lua", true))()
 end)
