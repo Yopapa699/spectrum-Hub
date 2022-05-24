@@ -537,7 +537,7 @@ Tab2Section:NewButton("fly V3", "new version is op", function()
 end)
 
 --Tab4
-Tab4Section:NewToggle("ToggleText", "ToggleInfo", function(state)
+Tab4Section:NewToggle("Cframespeed", "by vamp", function(state)
     if state then
         local lplr = game:GetService("Players").LocalPlayer
 local val = {["Value"] = 1}
