@@ -10,7 +10,10 @@ local Tab2 = Window:NewTab("others")
 local Tab2Section = Tab2:NewSection("HUBS")
 
 local Tab3 = Window:NewTab("hacks Hub")
-local Tab3Section =Tab3:NewSection("op")
+local Tab3Section = Tab3:NewSection("op")
+
+local Tab4 = Window:NewTab("bedwars")
+local Tab4Section = Tab4:NewSection("creds to vamp")
 
 --Tab1
 Tab1Section:NewButton("bedwars", "softbed from YZHacker", function()
@@ -526,4 +529,23 @@ local Server, Next; repeat
 until Server
 
 TPS:TeleportToPlaceInstance(_place,Server.id,game.Players.LocalPlayer)
+end)
+
+--Tab2
+Tab2Section:NewButton("fly V3", "new version is op", function()
+   loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\34\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\79\122\56\48\48\56\47\102\103\51\47\109\97\105\110\47\103\117\105\34\41\41\40\41\10")()
+end)
+
+--Tab4
+Tab4Section:NewToggle("ToggleText", "ToggleInfo", function(state)
+    if state then
+        local lplr = game:GetService("Players").LocalPlayer
+local val = {["Value"] = 1}
+
+game:GetService("RunService").RenderStepped:connect(function(delta)
+    lplr.Character:TranslateBy(lplr.Character.Humanoid.MoveDirection * (val["Value"] - lplr.Character.Humanoid.WalkSpeed * delta))
+    end)
+    else
+         game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 15
+    end
 end)
