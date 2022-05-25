@@ -537,3 +537,8 @@ end)
 Tab2Section:NewButton("jn hh skid script", "jn hh bozo", function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/JNHHGaming123/JNHHGaming123/main/JN%20HH%20Gaming%20Bedwars%20V5",true))()
 end)
+
+--Tab1
+Tab1Section:NewButton("swagmode for da hood", "credits to swagmode", function()
+   loadstring(game:HttpGet('https://raw.githubusercontent.com/lerkermer/lua-projects/master/SwagModeV002'))()
+end)
