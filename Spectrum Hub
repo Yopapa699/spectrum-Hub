@@ -4,7 +4,7 @@ local function callback(Text)
 elseif Text == ("No") then
  local plr = game.Players.LocalPlayer
 
-plr:Kick("i told you that do not click no")
+plr:Kick("i told you that do not click no LOL")
  end
 end
 
